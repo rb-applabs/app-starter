@@ -9,6 +9,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
+import { AppNavigation } from "@/components/layout/app-navigation";
+
 const projects = [
   {
     name: "Project Intelligence Hub",
@@ -37,6 +39,10 @@ export default function Home() {
           </div>
           <Badge variant="secondary">App Starter v0.1</Badge>
         </header>
+
+        
+<AppNavigation />
+
 
         <section className="space-y-3">
           <h2 className="text-2xl font-semibold">
